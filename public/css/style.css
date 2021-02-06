@@ -1,0 +1,17 @@
+#countryList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country {
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+#countryDetail img {
+    height: 50;
+    width: 100;
+}
+
